@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made in Italy - Artigianato Italiano</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      font-family: 'Georgia', serif;
+      color: #1a1a1a;
+    }
+    a {
+      text-decoration: none;
+      color: #b07d4b;
+    }
+    header, section, footer {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .hero {
+      background: url('placeholder-hero.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+    .cta-button {
+      background-color: #b07d4b;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 5px;
+      font-size: 1em;
+      transition: 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #8c5c33;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .product {
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .product img:hover {
+      transform: scale(1.05);
+    }
+    .testimonial {
+      font-style: italic;
+      text-align: center;
+      margin: 20px 0;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer a {
+      color: #b07d4b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>IT: L’eccellenza artigianale italiana per la tua casa</h1>
+    <h1>EN: Italian craftsmanship excellence for your home</h1>
+    <p>IT: Parquet, letti, divani e taglieri in ulivo: ogni pezzo unico, creato per durare nel tempo.</p>
+    <p>EN: Floors, beds, sofas, and olive wood boards: each piece unique, crafted to last.</p>
+    <a href="#prodotti" class="cta-button">IT: Scopri i nostri prodotti / EN: Explore our products</a>
+  </header>
+
+  <!-- Chi Siamo -->
+  <section id="chi-siamo">
+    <h2>IT: La nostra passione per il Made in Italy</h2>
+    <h2>EN: Our passion for Made in Italy</h2>
+    <p>IT: Selezioniamo le migliori aziende italiane artigianali, dove tradizione, design e materiali pregiati si uniscono per creare prodotti unici per la casa. Ogni pezzo racconta una storia di cura, tecnica e bellezza senza tempo.</p>
+    <p>EN: We select the finest Italian artisan companies, where tradition, design, and premium materials come together to create unique home products. Each piece tells a story of care, skill, and timeless beauty.</p>
+    <img src="placeholder-artigiani.jpg" alt="Artigiani al lavoro" style="width:100%; border-radius:8px; margin-top:20px;">
+  </section>
+
+  <!-- Prodotti -->
+  <section id="prodotti">
+    <h2>IT: I Nostri Prodotti</h2>
+    <h2>EN: Our Products</h2>
+    
+    <div class="product-grid">
+      <!-- Parquet -->
+      <div class="product">
+        <img src="placeholder-parquet.jpg" alt="Parquet Italiano">
+        <h3>IT: Parquet interno ed esterno</h3>
+        <h3>EN: Indoor & Outdoor Floors</h3>
+        <p>IT: Legno pregiato, lavorazione artigianale e design senza tempo per pavimenti che raccontano una storia.</p>
+        <p>EN: Premium wood, artisanal craftsmanship, and timeless design for floors that tell a story.</p>
+        <a href="#" class="cta-button">IT: Scopri di più / EN: Learn more</a>
+      </div>
+
+      <!-- Letti -->
+      <div class="product">
+        <img src="placeholder-letti.jpg" alt="Letti Italiani">
+        <h3>IT: Letti con contenitori</h3>
+        <h3>EN: Beds with Storage</h3>
+        <p>IT: Soluzioni eleganti e funzionali per il comfort della tua notte e l’ordine della tua casa.</p>
+        <p>EN: Elegant and functional solutions for restful nights and organized living.</p>
+        <a href="#" class="cta-button">IT: Scopri di più / EN: Learn more</a>
+      </div>
+
+      <!-- Divani -->
+      <div class="product">
+        <img src="placeholder-divani.jpg" alt="Divani Italiani">
+        <h3>IT: Divani</h3>
+        <h3>EN: Sofas</h3>
+        <p>IT: Comfort, stile e artigianalità italiana: divani che diventano protagonisti del tuo living.</p>
+        <p>EN: Comfort, style, and Italian craftsmanship: sofas that become the centerpiece of your living room.</p>
+        <a href="#" class="cta-button">IT: Scopri di più / EN: Learn more</a>
+      </div>
+
+      <!-- Taglieri -->
+      <div class="product">
+        <img src="placeholder-taglieri.jpg" alt="Taglieri in Ulivo">
+        <h3>IT: Taglieri in ulivo</h3>
+        <h3>EN: Olive Wood Boards</h3>
+        <p>IT: Pezzi unici, scolpiti dal tempo e rifiniti a mano, protagonisti scultorei della tavola.</p>
+        <p>EN: Unique pieces, shaped by time and hand-finished, sculptural centerpieces for your table.</p>
+        <a href="#" class="cta-button">IT: Scopri di più / EN: Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perché Made in Italy -->
+  <section id="perche">
+    <h2>IT: Perché scegliere prodotti artigianali italiani</h2>
+    <h2>EN: Why choose Italian artisan products</h2>
+    <p>IT: Ogni prodotto racconta una storia: materiali naturali, lavorazione a mano, attenzione al dettaglio e rispetto per la tradizione italiana. Oggetti versatili, disponibili in diverse misure, che uniscono funzionalità e bellezza.</p>
+    <p>EN: Each product tells a story: natural materials, handcrafted, attention to detail, and respect for Italian tradition. Versatile objects, available in different sizes, that combine functionality and beauty.</p>
+    <img src="placeholder-dettagli.jpg" alt="Dettagli artigianali" style="width:100%; border-radius:8px; margin-top:20px;">
+  </section>
+
+  <!-- Testimonianze -->
+  <section id="testimonianze">
+    <h2>IT: Testimonianze</h2>
+    <h2>EN: Testimonials</h2>
+    <p class="testimonial">“IT: Un’esperienza di acquisto unica: qualità, eleganza e attenzione ai dettagli che si percepisce in ogni pezzo.”</p>
+    <p class="testimonial">“EN: A unique purchasing experience: quality, elegance, and attention to detail you can feel in every piece.”</p>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta">
+    <h2>IT: Scopri l’eccellenza artigianale italiana per la tua casa.</h2>
+    <h2>EN: Discover Italian craftsmanship excellence for your home.</h2>
+    <a href="mailto:info@tuomarchio.it" class="cta-button">IT: Contattaci / EN: Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made in Italy • Artigianato • Qualità</p>
+    <p>Email: <a href="mailto:info@tuomarchio.it">info@tuomarchio.it</a> | Telefono: +39 0123 456789</p>
+    <p>Seguici: 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+    <p>&copy; 2026 Il tuo Brand</p>
+  </footer>
+
+</body>
+</html>
